@@ -1,0 +1,55 @@
+.boss{
+    display: flex;
+    /* border: "1px solid black"; */
+   
+}
+
+.sub-bossone{
+    background-color: rgba(250, 225, 215, 0.797);
+    width: 300px;
+    height: 1050px;
+    border:  solid 3px;
+
+}
+
+.sub-bosstwo {
+    background-color: #f0f0f0;
+    width: 950px;
+    height: 1050px;
+    border:  solid 5px; 
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    
+
+}
+
+
+.sub-bossthree{
+    background-color: rgba(250, 225, 215, 0.797);
+    width: 300px;
+    height: 1050px;
+    border:  solid 3px;
+}
+
+.sub-bossone img{
+    height:100%;
+    width: 100%;
+    
+}
+.sub-bossthree img{
+    height:100%;
+    width: 100%;
+    
+}
+
+.regi-formtag{
+    width: 700px;
+    margin-left: 100px;
+    padding: 20px;
+    
+}
+.class-lable{
+    font-size: 20px;
+    /* font-style: bold; */
+    font-weight: bold; 
+}

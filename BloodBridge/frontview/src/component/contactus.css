@@ -1,0 +1,96 @@
+.Heading-part{
+    background-color: rgba(255, 13, 0, 0.775);
+    height:auto
+}
+
+.interactive-heading {
+    color:whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer; /* Makes the heading appear clickable */
+}
+
+
+/* contactus.css */
+
+.contact_content {
+    display: flex;
+    /* justify-content:center; */
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 800px;
+    /* flex-direction: column; */
+    height: 721px;
+}
+
+.c-form {
+    /* flex: 1; */
+    padding: 50px;
+    max-width: 500px;
+}
+
+.c-form div {
+    /* name email in sab me vertical distance */
+    margin-bottom: 30px; 
+}
+
+.c-form label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.c-form input, .c-form textarea {
+    width: 300%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.c-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.c-button button {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.c-button button:hover {
+    background-color: darkblue;
+}
+.heroG{
+    display: flex;
+    
+}
+.image_wala {
+    flex: 1; /* Allow the image section to take up 50% of the width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff; /* Set a background color for the image section */
+    margin-bottom: 20px;
+    /* height: 500px; */
+
+
+}
+
+.image_wala img {
+    
+    height: 100%;
+    width:100%;
+
+}
